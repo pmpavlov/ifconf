@@ -1,6 +1,6 @@
-# iifconfig
+# ifconf
 
-[![Build Status](https://travis-ci.org/mpolden/ipd.svg)](https://travis-ci.org/mpolden/ipd)
+[![Build Status](https://travis-ci.org/pmpavlov/ifconf.svg?branch=master)](https://travis-ci.org/pmpavlov/ifconf)
 
 A simple service for looking up your IP address. This is the code that powers
 https://ifconfig
@@ -66,14 +66,14 @@ $ http --json ifconfig.
 Compiling requires the [Golang compiler](https://golang.org/) to be installed.
 This application can be installed by using `go get`:
 
-`go get github.com/pmpavlov/ifconfig`
+`go get github.com/pmpavlov/ifconf`
 
 ### Usage
 
 ```
-$ ifconfig -h
+$ ifconf -h
 Usage:
-  ifconfig [OPTIONS]
+  ifconf [OPTIONS]
 
 Application Options:
   -f, --country-db=FILE                                  Path to GeoIP country database
