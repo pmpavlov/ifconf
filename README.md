@@ -1,45 +1,45 @@
-# ipd
+# iifconfig
 
 [![Build Status](https://travis-ci.org/mpolden/ipd.svg)](https://travis-ci.org/mpolden/ipd)
 
 A simple service for looking up your IP address. This is the code that powers
-https://ifconfig.co
+https://ifconfig
 
 ## Usage
 
 Just the business, please:
 
 ```
-$ curl ifconfig.co
+$ curl ifconfig.
 127.0.0.1
 
-$ http ifconfig.co
+$ http ifconfig.
 127.0.0.1
 
-$ wget -qO- ifconfig.co
+$ wget -qO- ifconfig.
 127.0.0.1
 
-$ fetch -qo- http://ifconfig.co
+$ fetch -qo- http://ifconfig.
 127.0.0.1
 ```
 
 Country and city lookup:
 
 ```
-$ http ifconfig.co/country
-Elbonia
+$ http ifconfig./country
+United Kingdom
 
-$ http ifconfig.co/city
-Bornyasherk
+$ http ifconfig./city
+London
 ```
 
 As JSON:
 
 ```
-$ http --json ifconfig.co
+$ http --json ifconfig.
 {
-  "city": "Bornyasherk",
-  "country": "Elbonia",
+  "city": "London",
+  "country": "United Kingdom",
   "ip": "127.0.0.1",
   "ip_decimal": 2130706433
 }
@@ -66,14 +66,14 @@ $ http --json ifconfig.co
 Compiling requires the [Golang compiler](https://golang.org/) to be installed.
 This application can be installed by using `go get`:
 
-`go get github.com/mpolden/ipd`
+`go get github.com/pmpavlov/ifconfig`
 
 ### Usage
 
 ```
-$ ipd -h
+$ ifconfig -h
 Usage:
-  ipd [OPTIONS]
+  ifconfig [OPTIONS]
 
 Application Options:
   -f, --country-db=FILE                                  Path to GeoIP country database
