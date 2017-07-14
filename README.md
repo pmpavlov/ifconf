@@ -69,7 +69,7 @@ This application can be installed by using `go get`:
 
 `go get github.com/pmpavlov/ifconf`
 
-### Usage
+## Usage
 
 ```
 $ ifconf -h
