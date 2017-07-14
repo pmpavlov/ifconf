@@ -1,6 +1,7 @@
 # ifconf
 
 [![Build Status](https://travis-ci.org/pmpavlov/ifconf.svg?branch=master)](https://travis-ci.org/pmpavlov/ifconf)
+[![Code Climate](https://codeclimate.com/github/pmpavlov/ifconf/badges/gpa.svg)](https://codeclimate.com/github/pmpavlov/ifconf)
 
 A simple service for looking up your IP address. This is the code that powers
 https://ifconfig
