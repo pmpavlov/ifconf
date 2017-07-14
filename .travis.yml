@@ -5,3 +5,8 @@ language: go
 go:
   - 1.x
   - tip
+
+cache:
+  directories:
+    - $GOPATH/src
+    - $GOPATH/pkg
