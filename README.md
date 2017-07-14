@@ -76,15 +76,15 @@ $ ifconf -h
   ifconf [OPTIONS]
 
 Application Options:
-  -f, --country-db=FILE                                  Path to GeoIP country database
-  -c, --city-db=FILE                                     Path to GeoIP city database
-  -l, --listen=ADDR                                      Listening address (default: :8080)
-  -r, --reverse-lookup                                   Perform reverse hostname lookups
-  -p, --port-lookup                                      Enable port lookup
-  -t, --template=FILE                                    Path to template (default: index.html)
-  -H, --trusted-header=NAME                              Header to trust for remote IP, if present (e.g. X-Real-IP)
-  -L, --log-level=[debug|info|warn|error|fatal|panic]    Log level to use (default: info)
+  -f, --country-db=FILE                                Path to GeoIP country database
+  -c, --city-db=FILE                                   Path to GeoIP city database
+  -l, --listen=ADDR                                    Listening address (default: :8080)
+  -r, --reverse-lookup                                 Perform reverse hostname lookups
+  -p, --port-lookup                                    Enable port lookup
+  -t, --template=FILE                                  Path to template (default: index.html)
+  -H, --trusted-header=NAME                            Header to trust for remote IP, if present (e.g. X-Real-IP)
+  -L, --log-level=[debug|info|warn|error|fatal|panic]  Log level to use (default: info)
 
 Help Options:
-  -h, --help                                             Show this help message
+  -h, --help                                           Show this help message
 ```
