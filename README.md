@@ -1,9 +1,5 @@
 # ifconf
 
-[![Status][badge-status]](#top)
-[![License][badge-license]](LICENSE)
-[![Help][badge-help]][eawsy-chat]
-[![Social][badge-social]][eawsy-twitter]
 [![Build Status](https://travis-ci.org/pmpavlov/ifconf.svg?branch=master)](https://travis-ci.org/pmpavlov/ifconf)
 [![Code Climate](https://codeclimate.com/github/pmpavlov/ifconf/badges/gpa.svg)](https://codeclimate.com/github/pmpavlov/ifconf)
 [![Stories in Ready](https://badge.waffle.io/pmpavlov/ifconf.svg?label=ready&title=Ready)](http://waffle.io/pmpavlov/ifconf)
