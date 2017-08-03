@@ -4,6 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/pmpavlov/ifconf/badges/gpa.svg)](https://codeclimate.com/github/pmpavlov/ifconf)
 [![Stories in Ready](https://badge.waffle.io/pmpavlov/ifconf.svg?label=ready&title=Ready)](http://waffle.io/pmpavlov/ifconf)
 
+
 A simple service for looking up your IP address. This is the code that powers
 `https://ifconfig`
 
@@ -89,3 +90,4 @@ Application Options:
 Help Options:
   -h, --help                                           Show this help message
 ```
+
