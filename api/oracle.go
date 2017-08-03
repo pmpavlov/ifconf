@@ -5,7 +5,6 @@ import (
 	"net"
 	"strings"
 	"time"
-
 	"github.com/oschwald/geoip2-golang"
 )
 
