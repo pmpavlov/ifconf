@@ -5,40 +5,40 @@
 [![Stories in Ready](https://badge.waffle.io/pmpavlov/ifconf.svg?label=ready&title=Ready)](http://waffle.io/pmpavlov/ifconf)
 
 A simple service for looking up your IP address. This is the code that powers
-`https://ifconfig`
+`https://ifconfig.uk`
 
 ## Usage
 
 Just the business, please:
 
 ```
-$ curl ifconfig.
+$ curl ifconfig.uk
 127.0.0.1
 
-$ http ifconfig.
+$ http ifconfig.uk
 127.0.0.1
 
-$ wget -qO- ifconfig.
+$ wget -qO- ifconfig.uk
 127.0.0.1
 
-$ fetch -qo- http://ifconfig.
+$ fetch -qo- http://ifconfig.uk
 127.0.0.1
 ```
 
 Country and city lookup:
 
 ```
-$ http ifconfig./country
+$ http ifconfig.uk/country
 United Kingdom
 
-$ http ifconfig./city
+$ http ifconfig.uk/city
 London
 ```
 
 As JSON:
 
 ```
-$ http --json ifconfig.
+$ http --json ifconfig.uk
 {
   "city": "London",
   "country": "United Kingdom",
@@ -59,8 +59,6 @@ $ http --json ifconfig.
 
 ## Why
 
-* To scratch an itch
-* An excuse to use Go for something
 * Faster than ifconfig.me
 
 ## Building
