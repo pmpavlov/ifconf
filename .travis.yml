@@ -10,3 +10,6 @@ cache:
   directories:
     - $GOPATH/src
     - $GOPATH/pkg
+
+after_success:
+  - codecov

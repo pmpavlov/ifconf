@@ -14,3 +14,6 @@ coverage:
   range: 0..10
   precision: 5
 
+comment:
+  layout: "header, diff, changes"
+
