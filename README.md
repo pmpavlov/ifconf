@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pmpavlov/ifconf.svg?branch=master)](https://travis-ci.org/pmpavlov/ifconf)
 [![Code Climate](https://codeclimate.com/github/pmpavlov/ifconf/badges/gpa.svg)](https://codeclimate.com/github/pmpavlov/ifconf)
+[![Codecov](https://codecov.io/gh/pmpavlov/ifconf/branch/master/graph/badge.svg)](https://codecov.io/gh/pmpavlov/ifconf)
 [![Stories in Ready](https://badge.waffle.io/pmpavlov/ifconf.svg?label=ready&title=Ready)](http://waffle.io/pmpavlov/ifconf)
 
 
