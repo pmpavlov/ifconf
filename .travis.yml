@@ -11,5 +11,12 @@ cache:
     - $GOPATH/src
     - $GOPATH/pkg
 
+before_install:
+  - go get -t -v ./...
+
+script:
+  - go test -race -coverprofile=coverage.txt -covermode=atomic
+
+
 after_success:
-  - codecov
+  - bash <(curl -s https://codecov.io/bash)
